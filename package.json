@@ -1,0 +1,13 @@
+{
+  "name":"Customer Platform - Salesforce Automation",
+  "version": "1.0.0",
+  "author":"Balaji Krishnan - Platform Integration Team",
+  "devDependencies": {
+    "cypress": "^13.8.1",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/e2e"
+  }
+}
